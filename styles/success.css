@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #1a1a1a;
+    color: #a5a5a5;
+}
+
+div {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.login-container {
+    position: absolute;
+    width: 590px;
+    left: 50%;
+    margin: 6rem 0;
+    transform: translate(-50%, 0);
+    font-family: 'Open Sans',
+    sans-serif;
+    border-radius: 35px;
+    background: #292929;
+    box-shadow: 0 5 20px rgba(0, 0, 0, .20);
+}
+
+.header {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color: #F6D365;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.desc {
+    display: block;
+    width: 100%;
+    margin: 30px 40px;
+}
+
+.desc a {
+    color: #a5a5a5;
+}

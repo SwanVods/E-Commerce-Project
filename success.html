@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Success!</title>
+  <link rel="stylesheet" href="styles/success.css">
+</head>
+
+<body>
+  <div class="login-container">
+    <h1 class="header">Registration Success!</h1>
+    <p class="desc">Don't worry, you will be redirected into login page or click <span>
+      <a href="login.php">Here</a>
+    </span></p>
+  </div>
+  <script>
+    window.setTimeout(function(){
+      location.replace("login.php");}, 3000);
+  </script>
+</body>
+
+</html>
